@@ -1,7 +1,7 @@
 body {
 	background-color: #202228;
 }
-p {
+p, h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 /*.container-fluid {
@@ -9,7 +9,8 @@ p {
 	padding-right: 0px;
 }*/
 .a {
-	padding: 130px;
+	padding-top: 130px;
+	padding-bottom: 130px;
 }
 /*.carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -23,11 +24,13 @@ p {
 	padding-bottom: 70px;
 }
 .form-control {
-	background-color: red;
+	background-color: #262930;
 	border-radius: 0px;
+	border-color: #32363f;
 }
 .message {
 	padding: 60px;
+	border-color: #a5afce;
 }
 .btn {
 	border-radius: 0px;
@@ -36,12 +39,17 @@ p {
     padding: 8px 20px;
 }
 .send-reset {
-	padding-top: 35px;
+	padding-top: 30px;
 }
 .btn-message {
 	background-color: #fff;
 }
 .btn-reset {
 	background-color: #202228;
-	border-style: 1px solid red;
+	border-style: 1px solid;
+	border-color: #555b6b;
+	color: #fff;
+}
+.address {
+	padding-right: 20px;
 }
