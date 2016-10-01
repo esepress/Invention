@@ -12,7 +12,14 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p {
+	color: #fff;
+	font-family: 'Rubik-Light', sans-serif;
+	/*font-weight: lighter;*/
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	font-family: 'Istok Web', sans-serif;
 	font-weight: bold;
@@ -126,9 +133,16 @@ blockquote {
 
 	margin: 20px 0px;
 }
+.second{
+
+	text-align: right;
+}
 .image-text{
 
-	margin:  60px 0px;
+	margin:  25px 0px;
+}
+section.fit-image {
+    padding-bottom: 60px;
 }
 img.img-responsive {
     margin: 15px 0px;
