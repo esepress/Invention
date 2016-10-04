@@ -22,7 +22,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	font-family: 'Istok Web', sans-serif;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 blockquote {
 	font-style: italic;
@@ -111,7 +111,9 @@ blockquote {
     border-radius: 0px;
     padding: 15px;
     height: auto;
-    margin-bottom: 30px;
+}
+.from-group {
+    padding-top: 30px;
 }
 .checkbox-inline, .radio-inline {
 	
@@ -121,9 +123,16 @@ blockquote {
 .btn-send {
 
 	padding: 10px 30px;
-    background-color: #333;
-    color: #fff;
+    background-color: #fff;
+    color: #333;
     margin-top: 30px;
+}
+a.btn.btn-tobais.btn-reset:hover {
+	background-color: #fff;
+}
+a.btn.btn-tobais.btn-send:hover {
+	color: #fff;
+	background-color: #333;
 }
 .img-fit{
 	display: block;
@@ -147,7 +156,9 @@ section.fit-image {
 img.img-responsive {
     margin: 15px 0px;
 }
-
+.contact-form {
+	padding-bottom: 30px;
+}
 /*-------------------- ./ elements --------------*/
 hr {
 	margin-top: 0px;
@@ -210,6 +221,12 @@ hr {
     margin-right: 20px;
 }*/
 
+.contact {
+	border-top: 1px solid red;
+}
+/*.image-text {
+	border-bottom: 1px solid red;
+}*/
 /*=-=-=-=-=-=-==-=-=- Contact Info =-=-=-=-=-=-=-=-=-=-=-=-*/
 
 .contact-info {
