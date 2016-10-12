@@ -33,6 +33,13 @@ blockquote {
 	font-family: 'Roboto', sans-serif;
     list-style-type: square;
     font-size: bold;
+   /* font-weight: bold;*/
+    margin-left: -22px;
+}
+.ordarlist {
+	font-family: 'Roboto', sans-serif;
+    /*list-style-type: square;*/
+    font-size: bold;
     font-weight: bold;
     margin-left: -22px;
 }
@@ -46,17 +53,18 @@ blockquote {
 	border-radius: 25px;
 	font-size: 9px;
 	color: #333;
-    background-color: #ffffff;
+    background-color: #202228;
     margin-top: 30px;
     border: 1px solid;
     padding: 10px 20px;
 }
 section.button {
+	padding-top: 40px;
     padding-bottom: 60px;
 }
 .btn-defalt {
 
-	background-color: #333;
+	/*background-color: #333;*/
 	color: #fff;
 	padding: 13px 40px;
 	border-radius: 20px;
@@ -66,19 +74,19 @@ a.btn.btn-tobais.btn-special:hover {
     color: #333;
 }
 .btn-special {
-	background-color: #333;
+	/*background-color: #333;*/
 	color: #fff;
 	padding: 13px 40px;
 	border-radius: 20px;
 }
 .btn-big {
-	background-color: #333;
+	/*background-color: #333;*/
 	color: #fff;
 	padding: 15px 35px;
 	border-radius: 30px;
 }
 .btn-small {
-	background-color: #333;
+	/*background-color: #333;*/
 	color: #fff;
 	padding: 7px 25px;
 	border-radius: 30px;
@@ -90,7 +98,7 @@ a.btn.btn-tobais.btn-special:hover {
 	border-radius: 0px;	
 }
 .btn-fit {
-	background-color: #333;
+	/*background-color: #333;*/
 	color: #fff;
 	padding: 12px 170px;
 }
@@ -100,7 +108,7 @@ a.btn.btn-tobais.btn-special:hover {
     }
 }
 .btn-fit-small {
-	background-color: #333;
+	/*background-color: #333;*/
 	color: #fff;
 	padding: 8px 153px;
 }
@@ -141,7 +149,7 @@ a.btn.btn-tobais.btn-reset:hover {
 }
 a.btn.btn-tobais.btn-send:hover {
 	color: #fff;
-	background-color: #333;
+	background-color: #202228;
 }
 .img-fit{
 	display: block;
@@ -318,4 +326,65 @@ input.form-control.notify-me {
 
 thead, tbody, tfoot {
     background-color: #202228;
+}
+
+.table-hover>tbody>tr:hover {
+     background-color: #202228; 
+}
+
+.alternate-icon .row {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.fa {
+    margin-right: 10px;
+}
+
+.alternate-icon h1 {
+	padding-bottom: 25px;
+}
+
+pre {
+	background-color: #22242a;
+	color: #fff;
+	border: none;
+    border-radius: 0px;
+    padding: 50px 0px 65px 40px;
+}
+
+section.ordered-list {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+section.ordered-list h1 {
+    padding-bottom: 20px;
+}
+section.ordered-list p {
+    padding-bottom: 25px;
+}
+section.unordered-list h1 {
+    padding-bottom: 20px;
+}
+section.unordered-list p {
+    padding-bottom: 25px;
+}
+
+.ordarlist li{
+	padding-bottom: 10px;
+}
+
+.unordarlist li{
+	padding-bottom: 10px;
+}
+
+/*section {
+	padding-bottom: 30px;
+}*/
+
+section.blockquote {
+    padding-bottom: 25px;
+}
+section.paragraph {
+    padding-bottom: 25px;
 }
