@@ -50,6 +50,13 @@ blockquote {
     font-weight: bold;
     margin-left: -22px;
 }
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /*-------------------- elements-----------------*/
 .btn-tobais {
 	-webkit-transition: all 0.5s ease-in-out;
@@ -98,6 +105,9 @@ a.btn.btn-tobais.btn-special:hover {
 	padding: 7px 25px;
 	border-radius: 30px;
 }
+button[disabled], html input[disabled] {
+	cursor: not-allowed;
+}
 .btn-disabled {
 	background-color: #c1c1c1;
 	color: #fff;
@@ -111,7 +121,7 @@ a.btn.btn-tobais.btn-special:hover {
 }
 @media only screen and (max-width: 400px) {
     .btn-fit {
-        padding: 12px 100px;
+        padding: 12px 90px;
     }
 }
 .btn-fit-small {
@@ -121,7 +131,7 @@ a.btn.btn-tobais.btn-special:hover {
 }
 @media only screen and (max-width: 400px) {
     .btn-fit-small {
-        padding: 12px 85px;
+        padding: 8px 79px;
     }
 }
 .hover-off:hover{
@@ -198,6 +208,10 @@ img.img-responsive {
 .contact-form {
 	padding-bottom: 30px;
 }
+
+.star {
+	color: red;
+}
 /*-------------------- ./ elements --------------*/
 hr {
 	margin-top: 0px;
@@ -209,9 +223,9 @@ hr {
 	padding-left: 0px;
 	padding-right: 0px;
 }*/
-.a {
-	padding-top: 130px;
-	padding-bottom: 130px;
+.contact-field {
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 /*.carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -230,7 +244,7 @@ hr {
 }
 .message {
 	padding: 60px;
-	border-color: #a5afce;
+	/*border-color: #a5afce;*/
 }
 .btn {
 	border-radius: 0px;
@@ -274,16 +288,16 @@ hr {
 .contact-info-content .img-wrapper {
     border: 1px solid #fff;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     display: inline-block;
 }
 
 .contact-info-content .img-wrapper img {
     display: block;
     margin: auto;
-    padding-top: 11px;
-    padding: 10px;
+    /*padding-top: 11px;*/
+    padding: 8px;
 }
 
 .contact-info-content p {
@@ -318,6 +332,18 @@ input.form-control.notify-me {
 }
 .social-icon li {
 	display: inline-block;
+}
+@media only screen and (max-width: 400px) {
+    .social-icon a {
+    display: block;
+    margin: 1px;
+    padding: 7px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    color: #fff;
+	}
 }
 .social-icon a {
     display: block;
@@ -455,11 +481,34 @@ section.performatted h1 {
 .social-section {
 	padding: 50px 0px 50px 50px;
 }
+
+/*span .notify-me a {
+	color: #333;
+
+}
+span .notify-me a .btn {
+	padding: 7.5px 12px;
+	
+}*/
+a.notify-me {
+    color: #333;
+    padding: 7.5px 15px;
+}
 /*--------------------test-----------------*/
 .innerheader .pad-small {
     padding-top: 150px;
     padding-bottom: 180px;
 }
+@media only screen and (max-width: 400px) {
+    .innerheader .inner-title {
+	    padding-left: 0px;
+	    margin-top: -60px;
+	}
+	.innerheader .inner-title .col-md-12 {
+	    padding-left: 14px;
+	}
+}
+
 .innerheader .inner-title {
     padding-left: 150px;
     margin-top: -60px;
@@ -517,6 +566,66 @@ section.performatted h1 {
     margin-top: -5px;
 }
 /*---------------------test end--------------*/
+
+/*------------------------ slide show test------------------*/
+.client-name {
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+.section-devider {
+    margin: 0 auto;
+    width: 100px;
+    height: 1px;
+    border-top: 1px solid #fbfbfb;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+.testimonial-speech {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'weblysleek_uisemilight_italic';
+}
+/*p {
+    font-size: 21px;
+    font-family: 'weblysleek_uilight';
+    color: rgb(99, 99, 99);
+    line-height: 1.667;
+}*/
+.img-qoute {
+    vertical-align: top;
+    width: 24px;
+    margin-right: 5px;
+}
+.testimonial-sliders .owl-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.testimonial-sliders .owl-controls .owl-buttons div {
+    background: transparent !important;
+}
+.testimonial-sliders .owl-controls .owl-prev {
+    float: left;
+}
+.testimonial-sliders .owl-controls .owl-buttons div {
+    background: transparent !important;
+}
+.testimonial-sliders .owl-controls .owl-next {
+    float: right;
+}
+
+/*--------------------------slide show end-------------------*/
+
+
+
+
 
 /* Menu */
 
