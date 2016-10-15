@@ -5,7 +5,7 @@
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
 	<link rel="stylesheet" href="assets/ionicons-2.0.1/css/ionicons.min.css">
 	<link rel="stylesheet" href="assets/css/owl.carousel.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -116,27 +116,100 @@
 		</div>
 	</section>
 	<section class="text">
-		<div>
+		<!-- <div>
 			<div>
 				<p>Kakon</p>
 			</div>
-		</div>
+		</div> -->
+
+		<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+  <div class="item"><img src="assets/images/5.jpg" alt="The Last of us"></div>
+  <div class="item"><img src="assets/images/6.jpg" alt="GTA V"></div>
+  <div class="item"><img src="assets/images/4.jpg" alt="Mirror Edge"></div>
+ 
+</div>
+
+		<!-- slide show -->
+		<!-- <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div id="testimonial-carousel" class="owl-carousel testimonial-sliders owl-theme" style="opacity: 1; display: block;">
+              <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 6840px; left: 0px; display: block; transform: translate3d(-1140px, 0px, 0px); transition: all 800ms ease;"><div class="owl-item" style="width: 1140px;"><div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonial-container">
+                      <div class="client-details text-center">
+                        <img src="images/testimonial-1.png" alt="">
+                        <h5 class="client-name">satisfied customer</h5> 
+                        <hr class="section-devider">
+                      </div>
+                      <div class="testimonial-content">
+                        <p class="testimonial-speech"><img class="img-qoute" src="images/quate.png" alt="">Welcome to one of the world’s largest creative communities and the number one game development platform.Unity gives you everything.You need to realize your creative vision fast, and move ahead.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div></div><div class="owl-item" style="width: 1140px;"><div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonial-container">
+                      <div class="client-details text-center">
+                        <img src="images/testimonial-1.png" alt="">
+                        <h5 class="client-name">satisfied customer</h5> 
+                        <hr class="section-devider">
+                      </div>
+                      <div class="testimonial-content">
+                        <p class="testimonial-speech"><img class="img-qoute" src="images/quate.png" alt="">Welcome to one of the world’s largest creative communities and the number one game development platform.Unity gives you everything.You need to realize your creative vision fast, and move ahead.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div></div><div class="owl-item" style="width: 1140px;"><div>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="testimonial-container">
+                      <div class="client-details text-center">
+                        <img src="images/testimonial-1.png" alt="">
+                        <h5 class="client-name">satisfied customer</h5> 
+                        <hr class="section-devider">
+                      </div>
+                      <div class="testimonial-content">
+                        <p class="testimonial-speech"><img class="img-qoute" src="images/quate.png" alt="">Welcome to one of the world’s largest creative communities and the number one game development platform.Unity gives you everything.You need to realize your creative vision fast, and move ahead.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div></div></div></div>
+
+              
+
+              
+
+            <div class="owl-controls clickable"><div class="owl-buttons"><div class="owl-prev"><img src="images/arrow-right.png"></div><div class="owl-next"><img src="images/arrow-left.png"></div></div></div></div>              
+          </div>
+        </div>
+      </div> -->
+
+
+
+
 	</section>
 	<section class="">
 		<div class="container">
-			<div class="col-md-12 a">
+			<div class="col-md-12 contact-field">
 				<div class="col-md-6">
 					<form>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
-									<p>NAME *</p>
+									<p>NAME <span class="star">*</span></p>
 									<input type="text" class="form-control" name="name" id="name"/>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<p>EMAIL *</p>
+									<p>EMAIL <span class="star">*</span></p>
 									<input type="email" class="form-control" name="email" id="email"/>
 								</div>
 							</div>
@@ -144,13 +217,13 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="from-group">
-									<p>MESSAGE *</p>
+									<p>MESSAGE</p>
 									<textarea class="form-control message" rows="2" name="message" id="message"></textarea>
 								</div>
-								<div class="send-reset">
-									<button type="submit" class="btn btn-message">SEND MESSAGE</button>
-									<button type="submit" class="btn btn-reset">RESET</button>
-								</div>
+								<p>
+								  <a href="#" type="button" class="btn btn-tobais btn-send">SEND MESSAGE</a>
+								  <a href="#" type="button" class="btn btn-tobais btn-reset">RESET</a>
+								</p>
 							</div>
 						</div>
 					</form>
@@ -250,7 +323,7 @@
 								<div class="input-group">
 							      	<input type="text" class="form-control notify-me" placeholder="">
 							      	<span class="input-group-btn">
-							        	<button class="btn btn-default" type="button">NOTIFY ME</button>
+							        	<a class="btn btn-default notify-me" type="button">NOTIFY ME</a>
 							     	</span>
 							    </div>
 							</div>
@@ -333,7 +406,7 @@
 		<script src="assets/js/jquery-3.1.0.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/owl.carousel.min.js"></script>
-		<script src="owlcarousel/owl.carousel.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
 		<script src="assets/js/script.js"></script>
 </body>
 </html>
