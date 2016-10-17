@@ -1,5 +1,4 @@
-
-/*=-=-=-=--==-=-=-=--= Common Css =-=--=-=--==-=-=-===-*/
+/*--------------------- Common Css Start ----------------*/
 
 * {
 	outline: none;
@@ -30,6 +29,17 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Rubik-Light', sans-serif;
 	/*font-weight: bold;*/
 }
+
+hr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top: 1px solid;
+	color: #37393e;
+}
+
+
+/*--------------------- Common Css End ----------------*/
+
 blockquote {
 	font-style: italic;
 	border-left: 3px solid #fff;
@@ -213,12 +223,7 @@ img.img-responsive {
 	color: red;
 }
 /*-------------------- ./ elements --------------*/
-hr {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	border-top: 1px solid;
-	color: #37393e;
-}
+
 /*.container-fluid {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -494,7 +499,9 @@ a.notify-me {
     color: #333;
     padding: 7.5px 15px;
 }
-/*--------------------test-----------------*/
+
+
+/*-------------------------- Element Head Start----------------------------*/
 .innerheader .pad-small {
     padding-top: 150px;
     padding-bottom: 180px;
@@ -565,7 +572,7 @@ a.notify-me {
     height: 20px;
     margin-top: -5px;
 }
-/*---------------------test end--------------*/
+/*-------------------------- Element Head End----------------------------*/
 
 /*------------------------ slide show test------------------*/
 .client-name {
@@ -627,7 +634,7 @@ a.notify-me {
 
 
 
-/* Menu */
+/*-------------------------- Menu start ----------------------------*/
 
 	.wrapper {
 		-moz-transition: opacity 0.45s ease;
@@ -653,7 +660,7 @@ a.notify-me {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #333;
+		background: #2a2e3d;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -686,6 +693,7 @@ a.notify-me {
 				padding-bottom: 30px;
 				margin-top: 10px;
 				margin-bottom: 15px;
+				font-weight: bold;
 			}
 
 				#menu > .inner > ul > li {
@@ -695,10 +703,11 @@ a.notify-me {
 
 					#menu > .inner > ul > li a {
 						display: block;
-						padding: 7px 0px;
+						padding: 5px 0px;
 						line-height: 1.5;
 						border: 0;
 						color: inherit;
+						font-size: 20px;
 					}
 
 					#menu > .inner > ul > li:first-child {
@@ -836,3 +845,4 @@ a.notify-me {
 			margin-right: 0px;
 		}
 
+/*-------------------------- Menu End ----------------------------*/
