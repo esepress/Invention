@@ -118,20 +118,16 @@ $(document).ready(function () {
 
         });
 
-$("#owl-demo").owlCarousel({
- 
-      navigation : true, // Show next and prev buttons
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem:true
- 
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
-  });
+    $("#testimonial").owlCarousel({
+        items: 1,
+        loop:true,
+        autoplay: true,
+        navText: ["<i class='fa fa-angle-right'></i>","<i class='fa fa-angle-left'></i>"],
+        center: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        autoHeight: true
+    });
 
 });
