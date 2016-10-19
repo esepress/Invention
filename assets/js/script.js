@@ -130,4 +130,15 @@ $(document).ready(function () {
         autoHeight: true
     });
 
+    $("#header_slide").owlCarousel({
+        items: 1,
+        loop:true,
+        autoplay: true,
+        /*navText: [],
+        center: true,
+        margin: 10,
+        nav: true,
+        autoHeight: true*/
+    });
+
 });
