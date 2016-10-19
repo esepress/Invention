@@ -878,3 +878,27 @@ a.notify-me {
     padding-right: 0px;
     border-radius: 0px;
 }
+/*---------------------- Home Head Start ------------------*/
+.owl-carousel .owl-dot {
+    background-color: transparent;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 5px 5px;
+    margin-right: 5px;
+}
+.owl-carousel .owl-dot.active {
+    background-color: #e1666a;
+    border-color: #e1666a;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 0px;
+    height: 0px;
+    margin: 0px 0px;
+}
+
+.header_slide img.img-responsive {
+    margin: 0px;
+}
+
+/*---------------------- Home Head End ------------------*/
