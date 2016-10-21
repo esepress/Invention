@@ -503,7 +503,7 @@ a.notify-me {
 
 /*-------------------------- Element Head Start----------------------------*/
 .innerheader .pad-small {
-    padding-top: 150px;
+    padding-top: 220px;
     padding-bottom: 180px;
 }
 @media only screen and (max-width: 400px) {
@@ -533,7 +533,7 @@ a.notify-me {
 .innerheader {
     background: url(../images/slider2.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center center;
     position: relative;
 }
@@ -552,8 +552,10 @@ a.notify-me {
 }
 
 .head {
-    background-color: transparent;
-    padding: 15px 0px;
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    padding: 10px;
 }
 
 .logo {
@@ -888,8 +890,8 @@ a.notify-me {
     margin-right: 5px;
 }
 .owl-carousel .owl-dot.active {
-    background-color: #e1666a;
-    border-color: #e1666a;
+    background-color: #fff;/*
+    border-color: #e1666a;*/
 }
 .owl-theme .owl-dots .owl-dot span {
     width: 0px;
@@ -900,5 +902,146 @@ a.notify-me {
 .header_slide img.img-responsive {
     margin: 0px;
 }
+.owl-theme .owl-dots {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
 
 /*---------------------- Home Head End ------------------*/
+
+/*---------------------- popup section test start -------------*/
+.no-gutter.gallery-pad {
+    padding-bottom: 30px;
+}
+.gallery-pad {
+    padding-top: 30px;
+}
+.no-gutter>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+.img-box {
+    position: relative;
+    overflow: hidden;
+}
+.img-box img {
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    transition: opacity .35s,-webkit-transform .45s;
+    transition: opacity .35s,transform .45s;
+    -webkit-transform: translate3d(-40px,0,0);
+    transform: translate3d(-40px,0,0);
+}
+img {
+    border: 0;
+}
+.img-caption {
+    background-image: linear-gradient(to top,rgba(17,17,17,.9),rgba(17,17,17,0));
+    padding: 15px;
+    position: absolute;
+    top: auto;
+    bottom: -52px;
+    width: 100%;
+    transition: all .4s;
+}
+.caption-text {
+    float: left;
+}
+.img-caption span {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.caption-social {
+    float: right;
+}
+.caption-social span a {
+    color: #fff;
+}
+a {
+    background-color: transparent;
+}
+.caption-social span a i {
+    display: inline-block;
+    margin-left: 7px;
+}
+.img-wrapper {
+    background-color: #111;
+}
+.img-sidebar {
+    padding: 30px;
+    background-color: #fff;
+    position: relative;
+    /*height: 88vh;*/
+}
+.img-sidebar .sidebar-header {
+    margin-bottom: 15px;
+}
+.img-sidebar .img-title {
+    font-size: 1.414rem;
+}
+.author-meta span {
+    font-size: 1rem;
+}
+.img-sidebar .sidebar-content {
+    /*padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.1);*/
+    margin-bottom: 30px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.img-sidebar .img-meta ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.img-sidebar .img-meta ul li span {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.img-title h4 {
+	color: #333;
+}
+.author-meta span {
+	color: #333;
+}
+.author-name span {
+	color: #333;
+}
+.sidebar-content p{
+	color: #333;
+}
+.img-lightbox img {
+	max-width: 111%;
+	margin: 0px;
+}
+
+.slide1 {
+    background: url(../images/slider1.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    position: relative;
+}
+.slide2 {
+    background: url(../images/slider2.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    position: relative;
+}
+.slide3 {
+    background: url(../images/slider3.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    position: relative;
+}
+
+
+/*---------------------- popup section test End -------------*/
