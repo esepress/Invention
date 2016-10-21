@@ -130,7 +130,7 @@ $(document).ready(function () {
         autoHeight: true
     });
 
-    $("#header_slide").owlCarousel({
+    $("#innerheader2").owlCarousel({
         items: 1,
         loop:true,
         autoplay: true,
@@ -141,4 +141,12 @@ $(document).ready(function () {
         autoHeight: true*/
     });
 
+});
+
+$('.inline-popup').magnificPopup({
+  type:'inline',
+  midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+  gallery:{
+    enabled:true
+  }
 });
