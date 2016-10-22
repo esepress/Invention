@@ -130,7 +130,7 @@ $(document).ready(function () {
         autoHeight: true
     });
 
-    $("#innerheader2").owlCarousel({
+    $("#header_slide").owlCarousel({
         items: 1,
         loop:true,
         autoplay: true,

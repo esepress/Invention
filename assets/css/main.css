@@ -548,7 +548,9 @@ a.notify-me {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(32,36,55,0.65);
+    /*background-color: rgba(32,36,55,0.65);*/
+    background-color: #1d2437;
+    opacity: .4;
 }
 
 .head {
@@ -886,7 +888,7 @@ a.notify-me {
     border-radius: 100%;
     border: 1px solid white;
     display: inline-block;
-    padding: 5px 5px;
+    padding: 3px 3px;
     margin-right: 5px;
 }
 .owl-carousel .owl-dot.active {
@@ -901,10 +903,11 @@ a.notify-me {
 
 .header_slide img.img-responsive {
     margin: 0px;
+    margin-top: -50px;
 }
 .owl-theme .owl-dots {
     position: absolute;
-    bottom: 50px;
+    bottom: 122px;
     width: 100%;
 }
 
@@ -912,10 +915,11 @@ a.notify-me {
 
 /*---------------------- popup section test start -------------*/
 .no-gutter.gallery-pad {
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
 }
 .gallery-pad {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
+    margin-top: -10px;
 }
 .no-gutter>[class*=col-] {
     padding-right: 0;
@@ -968,7 +972,7 @@ a {
     margin-left: 7px;
 }
 .img-wrapper {
-    background-color: #111;
+    /*background-color: #111;*/
 }
 .img-sidebar {
     padding: 30px;
@@ -1043,5 +1047,33 @@ ul {
     position: relative;
 }
 
+.head-text {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    text-align: center;
+    padding-top: 190px;
+}
+.head-text a {
+	text-decoration: underline;
+	color: #fff;
+	font-size: 12px;
+    font-weight: inherit;
+    letter-spacing: .4px;
+}
+.head-text h1 {
+	font-family: 'Rubik-Bold', sans-serif;
+	font-weight: 900;
+}
 
+.mfp-arrow {
+    margin: 150px;
+    margin-top: -115px;
+}
+.sidebar-content a {
+	text-decoration: underline;
+}
+.img-box:hover {
+    zoom: 25%;
+}
 /*---------------------- popup section test End -------------*/
