@@ -150,3 +150,9 @@ $('.inline-popup').magnificPopup({
     enabled:true
   }
 });
+
+$('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 200
+});

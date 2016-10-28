@@ -1073,7 +1073,34 @@ ul {
 .sidebar-content a {
 	text-decoration: underline;
 }
-.img-box:hover {
-    zoom: 25%;
+.img-box:hover img {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.grid-item--width2 { 
+	width: auto;
+    height: 350px;
+}
+.grid-item {
+	width: auto;
+    height: 350px;
+}
+
+.home_text {
+    position: absolute;
+    z-index: 9;
+    height: auto;
+    width: auto;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home_text p{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 10px;
+    font-weight: inherit;
 }
 /*---------------------- popup section test End -------------*/
