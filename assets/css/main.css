@@ -314,7 +314,7 @@ img.img-responsive {
 }
 
 .img-wrapper {
-	margin-right: 15px;
+	/*margin-right: 15px;*/
 }
 
 .social-contact {
@@ -1021,7 +1021,7 @@ ul {
 	color: #333;
 }
 .img-lightbox img {
-	max-width: 111%;
+	max-width: 100%;
 	margin: 0px;
 }
 
@@ -1067,8 +1067,8 @@ ul {
 }
 
 .mfp-arrow {
-    margin: 150px;
-    margin-top: -115px;
+    margin: 70px;
+    margin-top: -50px;
 }
 .sidebar-content a {
 	text-decoration: underline;
@@ -1078,9 +1078,16 @@ ul {
     transform: translate3d(0,0,0);
 }
 
-.grid-item--width2 { 
+@media screen and (max-width: 991px) {
+    .grid-item-width2 {
+        width: auto;
+   	 	height: 0px;
+    }
+}
+
+.grid-item-width2 { 
 	width: auto;
-    height: 350px;
+    height: 321px;
 }
 .grid-item {
 	width: auto;
@@ -1102,5 +1109,86 @@ ul {
     color: #fff;
     font-size: 10px;
     font-weight: inherit;
+}
+
+.img-lightbox .col-md-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ .p0 {
+ 	margin-right: 0px;
+ }
+
+
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  /*padding: 40px;*/
+  /*margin: 20px auto;*/
+  /*text-align: center;*/
+  /*padding: 0px;*/
+  width: auto;
+  max-width: 1150px;
+  /*margin: 0px auto;*/
+}
+
+.white-popup {
+  position: relative;
+  background-color: #FFF;
+  padding: 0px;
+  width: auto;
+  max-width: 1075px;
+  margin: 0px auto;
+}
+
+.mfp-content .white-popup .col-md-4 {
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.pop-up-color {
+	background-color: #fff;
+}
+
+.pop-up-color img {
+	margin: 0px auto;
+}
+
+.pop-up-color .p-r-0 {
+	padding-right: 0px;
+}
+.pop-up-color .p-l-0 {
+	padding-left: 0px;
+}
+
+.pop-up-color section {
+	margin-top: 250px;
+}
+@media screen and (max-width: 1024px) {
+	.pop-up-color section {
+	margin-top: 25px;
+}
+}
+
+.popup-head {
+	margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+
+.popup-parapraph {
+	padding: 0px 15px;
+}
+/*.popup-parapraph {
+	color: #333;
+}*/
+
+h4.popup-head {
+    color: #333;
+}
+p.popup-parapraph {
+	color: #333;
 }
 /*---------------------- popup section test End -------------*/
