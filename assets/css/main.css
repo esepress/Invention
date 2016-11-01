@@ -200,7 +200,7 @@ a.btn.btn-tobais.btn-send:hover {
 section.fit-image {
     padding-bottom: 60px;
 }
-img.img-responsive {
+ img.img-responsive {
     margin: 15px 0px;
 }
 .contact-form {
@@ -209,6 +209,11 @@ img.img-responsive {
 
 .star {
 	color: red;
+}
+
+.galleryFullWidth3col img.img-responsive {
+	margin: 0px;
+	max-width: none;
 }
 /*-------------------- ./ elements --------------*/
 
@@ -964,22 +969,18 @@ ul {
 }
 
 .slide1 {
-    background: url(../images/slider1.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center center;
-    position: relative;
+    background: url(../images/slider1.jpg);  
 }
 .slide2 {
     background: url(../images/slider2.jpg);
-    background-size: cover;
-    background-repeat: repeat;
-    background-position: center center;
-    position: relative;
 }
 .slide3 {
     background: url(../images/slider3.jpg);
-    background-size: cover;
+}
+
+.bg {
+	min-height: 80vh;
+	background-size: cover;
     background-repeat: repeat;
     background-position: center center;
     position: relative;
