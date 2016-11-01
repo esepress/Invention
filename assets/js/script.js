@@ -109,12 +109,7 @@ $(document).ready(function () {
     $("#header_slide").owlCarousel({
         items: 1,
         loop:true,
-        autoplay: true,
-        /*navText: [],
-        center: true,
-        margin: 10,
-        nav: true,
-        autoHeight: true*/
+        autoplay: true
     });
 
 });
@@ -127,8 +122,9 @@ $('.inline-popup').magnificPopup({
   }
 });
 
-$('.grid').masonry({
+/*$('.grid').masonry({
   // options
   itemSelector: '.grid-item',
   columnWidth: 200
 });
+*/
