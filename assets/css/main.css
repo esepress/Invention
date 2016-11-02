@@ -32,7 +32,9 @@ hr {
 	color: #37393e;
 }
 
-
+textarea {
+	resize: none;
+}
 /*--------------------- Common Css End ----------------*/
 
 blockquote {
@@ -309,7 +311,7 @@ input.form-control.notify-me {
 .social-icon li {
 	display: inline-block;
 }
-@media only screen and (max-width: 400px) {
+/*@media only screen and (max-width: 400px) {
 .social-icon a {
     display: block;
     margin: 1px;
@@ -320,7 +322,7 @@ input.form-control.notify-me {
     height: 36px;
     color: #fff;
 	}
-}
+}*/
 .social-icon a {
     display: block;
     margin: 3px;
