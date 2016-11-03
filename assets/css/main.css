@@ -164,6 +164,12 @@ tr td:nth-child(2), tr th:nth-child(2) {
 .from-group {
     padding-top: 30px;
 }
+
+@media only screen and (max-width: 767px){
+.text-center, .text-right {
+    text-align: left;
+	}
+}
 .checkbox-inline, .radio-inline {
 	
 	font-size: 15px;
@@ -191,6 +197,13 @@ a.btn.btn-tobais.btn-send:hover {
 
 	margin: 20px 0px;
 }
+
+@media only screen and (max-width: 400px) {
+    .second{
+		text-align: left !important;
+	}
+}
+
 .second{
 
 	text-align: right;
@@ -241,7 +254,7 @@ section.fit-image {
 .btn {
 	border-radius: 0px;
     margin-right: 10px;
-    font-size: 10px;
+    /*font-size: 10px;*/
     /*padding: 8px 20px;*/
 }
 .send-reset {
@@ -377,6 +390,12 @@ thead, tbody, tfoot {
      background-color: #202228; 
 }
 
+@media only screen and (max-width: 400px) {
+    .icons {
+    	padding-top: 35px;
+	}
+}
+
 .alternate-icon .row {
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -456,6 +475,7 @@ section.performatted h1 {
 a.notify-me {
     color: #333;
     padding: 7.5px 15px;
+    font-size: 10px;
 }
 
 
@@ -464,7 +484,7 @@ a.notify-me {
     padding-top: 220px;
     padding-bottom: 180px;
 }
-@media only screen and (max-width: 400px) {
+/*@media only screen and (max-width: 400px) {
     .innerheader .inner-title {
 	    padding-left: 0px;
 	    margin-top: -60px;
@@ -472,11 +492,21 @@ a.notify-me {
 	.innerheader .inner-title .col-md-12 {
 	    padding-left: 14px;
 	}
+}*/
+
+@media only screen and (max-width: 400px) {
+    .innerheader .inner-title {
+    text-align: center;
+    margin-top: -60px;
+    color: #fff;
+    padding-left: 20px !important
+	}
 }
 
 .innerheader .inner-title {
     padding-left: 150px;
     margin-top: -60px;
+    color: #fff;
 }
 .innerheader2 .inner-title h3 {
     text-transform: uppercase;
@@ -492,9 +522,7 @@ a.notify-me {
     background-position: center center;
     position: relative;
 }
-.innerheader .inner-title {
-    color: #fff;
-}
+
 .title {
     margin-left: -75px;
     font-weight: bold;
@@ -832,12 +860,23 @@ body.is-menu-visible #menu {
     border-radius: 0px;
 }
 /*---------------------- Home Head Start ------------------*/
+@media only screen and (max-width: 768px) {
+    .owl-carousel .owl-dot {
+	    background-color: transparent;
+	    border-radius: 100%;
+	    border: 1px solid white;
+	    display: inline-block;
+	    padding: 5px 5px !important;
+	    margin-right: 5px;
+	}
+}
+
 .owl-carousel .owl-dot {
     background-color: transparent;
     border-radius: 100%;
     border: 1px solid white;
     display: inline-block;
-    padding: 3px 3px;
+    padding: 4px 4px;
     margin-right: 5px;
 }
 .owl-carousel .owl-dot.active {
@@ -1002,6 +1041,15 @@ ul {
     font-weight: inherit;
     letter-spacing: .4px;
 }
+
+@media only screen and (max-width: 482px) {
+    .head-text h1 {
+		font-family: 'Rubik-Bold', sans-serif;
+		font-weight: 900;
+		font-size: 23px;
+}
+}
+
 .head-text h1 {
 	font-family: 'Rubik-Bold', sans-serif;
 	font-weight: 900;
