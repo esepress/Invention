@@ -48,7 +48,7 @@ blockquote {
     list-style-type: square;
     font-size: bold;
    /* font-weight: bold;*/
-    /*margin-left: -35px;*/
+    margin-left: -35px;
 }
 .ordarlist {
 	font-family: 'Roboto', sans-serif;
@@ -56,6 +56,15 @@ blockquote {
     font-size: bold;
     font-weight: bold;
     margin-left: -22px;
+}
+
+.ordarlist li{
+	padding-bottom: 10px;
+}
+
+.unordarlist li{
+	padding-bottom: 10px;
+	font-size: 16px;
 }
 
 #owl-demo .item img{
@@ -198,11 +207,11 @@ a.btn.btn-tobais.btn-send:hover {
 	margin: 20px 0px;
 }
 
-@media only screen and (max-width: 400px) {
+/*@media only screen and (max-width: 400px) {
     .second{
 		text-align: left !important;
 	}
-}
+}*/
 
 .second{
 
@@ -351,6 +360,15 @@ input.form-control.notify-me {
 	font-size: 13px;
 }
 
+section.footer ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+section.footer ul li a {
+    color: #fff;
+}
+
 .ion-social-facebook-outline:before {
     font-size: 25px;
     line-height: 20px;
@@ -379,7 +397,22 @@ ul.social-icon {
 }
 .footer {
 	background-color: #1e2026;
-	padding: 30px;
+	padding: 30px 0px;
+}
+
+.copyright-text {
+	text-align: right;
+}
+
+@media only screen and (max-width: 767px) {
+    .copyright-text {
+    	text-align: center;
+	}
+}
+@media only screen and (max-width: 767px) {
+    .footer-bottom {
+    	padding-left: 27px;
+	}
 }
 
 thead, tbody, tfoot {
@@ -434,15 +467,6 @@ section.unordered-list p {
     padding-bottom: 25px;
 }
 
-.ordarlist li{
-	padding-bottom: 10px;
-}
-
-.unordarlist li{
-	padding-bottom: 10px;
-	font-size: 16px;
-}
-
 section.blockquote {
     padding-bottom: 25px;
 }
@@ -469,7 +493,7 @@ section.performatted h1 {
 	padding-right: 0px;
 }
 .social-section {
-	padding: 50px 0px 50px 50px;
+	padding: 50px 0px;
 }
 
 a.notify-me {
@@ -494,20 +518,19 @@ a.notify-me {
 	}
 }*/
 
-@media only screen and (max-width: 400px) {
-    .innerheader .inner-title {
-    text-align: center;
-    margin-top: -60px;
-    color: #fff;
-    padding-left: 20px !important
-	}
-}
-
 .innerheader .inner-title {
     padding-left: 150px;
     margin-top: -60px;
     color: #fff;
 }
+
+@media only screen and (max-width: 400px) {
+    .innerheader .inner-title {
+    text-align: center;
+    padding-left: 0px;
+	}
+}
+
 .innerheader2 .inner-title h3 {
     text-transform: uppercase;
     font-size: 2.60rem;
@@ -829,17 +852,17 @@ body.is-menu-visible #menu {
 /*-------------------------- Menu End ----------------------------*/
 
 .testimonial {
-    background-size: 100% 100%;
-    z-index: -1;
+    /*background-size: 100% 100%;
+    z-index: -1;*/
     color: #fff;
     text-align: center;
-    padding: 90px;
+    padding: 90px 0px;
     background-color: #1e2026;
 }
 
 .owl-carousel .owl-nav .owl-next {
     position: absolute;
-    left: -10%;
+    left: 0;
     top: 21%;
     
     background-color: #1e2026;
@@ -847,11 +870,16 @@ body.is-menu-visible #menu {
 }
 .owl-carousel .owl-nav .owl-prev {
     position: absolute;
-    left: 105%;
+    right: 0;
     top: 21%;
     background-color: #1e2026;
     font-size: 25px;
 }
+
+.carousel-item .text-center {
+    padding: 0px 50px;
+}
+
 .owl-theme .owl-nav [class*=owl-]:hover {
     background: #fff;
     color: #1e2026;
@@ -860,6 +888,16 @@ body.is-menu-visible #menu {
     border-radius: 0px;
 }
 /*---------------------- Home Head Start ------------------*/
+
+.owl-carousel .owl-dot {
+    background-color: transparent;
+    border-radius: 100%;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 4px 4px;
+    margin-right: 5px;
+}
+
 @media only screen and (max-width: 768px) {
     .owl-carousel .owl-dot {
 	    background-color: transparent;
@@ -871,14 +909,6 @@ body.is-menu-visible #menu {
 	}
 }
 
-.owl-carousel .owl-dot {
-    background-color: transparent;
-    border-radius: 100%;
-    border: 1px solid white;
-    display: inline-block;
-    padding: 4px 4px;
-    margin-right: 5px;
-}
 .owl-carousel .owl-dot.active {
     background-color: #fff;/*
     border-color: #e1666a;*/
@@ -978,10 +1008,10 @@ a {
     border-bottom: 1px solid rgba(0,0,0,.1);*/
     margin-bottom: 30px;
 }
-ul {
+/*ul {
     padding: 0;
     list-style-type: none;
-}
+}*/
 .img-sidebar .img-meta ul li {
     font-size: 1rem;
     margin-bottom: 10px;
@@ -1054,11 +1084,15 @@ ul {
 	font-family: 'Rubik-Bold', sans-serif;
 	font-weight: 900;
 }
-
+@media screen and (max-width: 600px){
 .mfp-arrow {
+    top: 38%;
+	}
+}
+/*.mfp-arrow {
     margin: 70px;
     margin-top: -50px;
-}
+}*/
 .sidebar-content a {
 	text-decoration: underline;
 }
@@ -1178,3 +1212,4 @@ p.popup-parapraph {
 	color: #333;
 }
 /*---------------------- popup section test End -------------*/
+
