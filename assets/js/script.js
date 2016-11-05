@@ -94,6 +94,8 @@ $(document).ready(function () {
 
         });
 
+//----- Testimonial Start ------
+
     $("#testimonial").owlCarousel({
         items: 1,
         loop:true,
@@ -106,6 +108,8 @@ $(document).ready(function () {
         autoHeight: true
     });
 
+//----- Header Slide Start ------
+
     $("#header_slide").owlCarousel({
         items: 1,
         loop:true,
@@ -114,6 +118,8 @@ $(document).ready(function () {
 
 });
 
+//----- Popup Start ------
+
 $('.inline-popup').magnificPopup({
   type:'inline',
   midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
@@ -121,6 +127,7 @@ $('.inline-popup').magnificPopup({
     enabled:true
   }
 });
+
 
 /*$('.grid').masonry({
   // options
